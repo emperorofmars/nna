@@ -48,4 +48,4 @@ Json components can have optional `id` and `overrides` properties.\
 An `id` is a string that must be unique within the model, and can be used to reference other components.\
 `overrides` is an array of ID's. The overridden components will not be processed.
 
-On import into a game-engine NNA Json definitions will be removed from the hierarchy by default.\
+On import into a game-engine, NNA Json definitions will be removed from the hierarchy by default.
