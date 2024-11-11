@@ -23,7 +23,8 @@ Existing 3d interchange formats are bad. The least horrible one, FBX, is not ext
 This is a way to add additional information to 3d models in any format, primarily FBX.
 
 The best case would be if a proper open & extensible 3d interchange format was created. In that case I'll happily delete this^^\
-[I created a proof-of-concept of such a format](https://github.com/emperorofmars/stf-unity). Alone it is of course not practically possible to bring such a project into a widely available production ready state.
+[I created a proof-of-concept of such a format](https://github.com/emperorofmars/stf-unity). Alone it is of course not practically possible to bring such a project into a widely available production ready state.\
+[If you are asking yourself why wouldn't glTF 2.0 just work, read this!](https://gist.github.com/emperorofmars/d8abf0f4b9bd5434f9543511b243a254)
 
 ### Goals
 * A 3d file should be a self-contained single source of truth for all its functionality, and work across different game engines.

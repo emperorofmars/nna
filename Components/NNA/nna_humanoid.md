@@ -1,7 +1,7 @@
 [Home](../../readme.md) 🔶 [NNA Core Spec](../../nna_spec.md) 🔶 [NNA Component Types](../../nna_component_types.md) 🔶 [Roadmap](../../roadmap.md)
 
 # `nna.humanoid` - Humanoid Mappings
-Generates a humanoid `Avatar`. Creates an `Animator` component on the root node if not present and sets the avatar.
+Specifies a Unity compatible humanoid rig.\
 Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
 
 ## Name
@@ -23,7 +23,7 @@ Currently, only automatic mapping of bones is supported. Explicit mapping may be
 **Example**
 ```
 {
-	"t": "humanoid",
+	"t": "nna.humanoid",
 	"lt": "digi",
 	"nj": true
 }
