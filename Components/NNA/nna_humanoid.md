@@ -1,3 +1,4 @@
+[Home](../../readme.md) 🔶 [NNA Core Spec](../../nna_spec.md) 🔶 [NNA Component Types](../../nna_component_types.md) 🔶 [Roadmap](../../roadmap.md)
 
 # `nna.humanoid` - Humanoid Mappings
 Generates a humanoid `Avatar`. Creates an `Animator` component on the root node if not present and sets the avatar.
