@@ -1,6 +1,6 @@
 [Home](../../readme.md) 🔶 [NNA Core Spec](../../nna_spec.md) 🔶 [NNA Component Types](../../nna_component_types.md) 🔶 [Roadmap](../../roadmap.md)
 
-# `nna.humanoid` - Humanoid Mappings
+# `nna.humanoid`
 Specifies a Unity compatible humanoid rig.\
 Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
 

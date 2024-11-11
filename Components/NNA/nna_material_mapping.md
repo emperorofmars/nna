@@ -1,6 +1,6 @@
 [Home](../../readme.md) 🔶 [NNA Core Spec](../../nna_spec.md) 🔶 [NNA Component Types](../../nna_component_types.md) 🔶 [Roadmap](../../roadmap.md)
 
-# `nna.material_mapping` - Map Materials On Import
+# `nna.material_mapping`
 Maps materials onto a mesh-instance on import into a game-engine by name.
 
 ## Json
