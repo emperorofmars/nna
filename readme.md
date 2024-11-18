@@ -7,12 +7,14 @@ This project is an abomination and the sooner it can burn in a fire, the better.
 * Blender: <https://github.com/emperorofmars/nna_blender>
 * Unity: <https://github.com/emperorofmars/nna_unity>
 
-**This repository provides the documentation for the format and available component-types.**
+⭐ Star this repo if you love heresy! ⭐
+
+---
+
+**This repository hosts documentation for the format and available component-types.**
 * [Core Specification](nna_spec.md)
 * [Available Component Types](nna_component_types.md)
 * [Roadmap](roadmap.md)
-
-⭐ Star this repo if you love heresy! ⭐
 
 Issues, discussions & PRs Welcome!
 
