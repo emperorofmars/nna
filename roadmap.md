@@ -13,13 +13,12 @@ Have a decent Blender extension to create NNA definitions with a GUI.
 The 'export from Blender, drag into Unity, and get a ready to upload VR avatar' experience is generally there, but the file depends on resources in the Unity project.
 
 #### TODO
-* General:
+* NNA Format:
 	* More VR & V-tubing avatar components & features.
 		* Bone based eyelid animation.
 		* Bone physics libraries, at least partially implemented: VRC Physbones & VRM Springbones.
 * Blender:
 	* Handle name definition removal with an existing targeting node.
-	* Validate manually entered Json
 
 ### Stage 2: All In One
 An `*.nna.fbx` file no longer needs external dependencies, other than NNA itself, in order to be parsed into a fully featured VR avatar in a game-engine.
@@ -27,7 +26,7 @@ An `*.nna.fbx` file no longer needs external dependencies, other than NNA itself
 A lot of these features are blocked by Blender's (lack of an) animation system. Will be fixed once Blender 4.4 is released with 'slotted actions'.
 
 #### TODO
-* General:
+* NNA Format:
 	* More constraint types.
 	* Unity humanoid muscle settings.
 	* Animations, including being able to target NNA properties. (Blocked until Blender 4.4)
