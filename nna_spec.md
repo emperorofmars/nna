@@ -49,3 +49,8 @@ An `id` is a string that must be unique within the model, and can be used to ref
 `overrides` is an array of ID's. The overridden components will not be processed.
 
 On import into a game-engine, NNA Json definitions will be removed from the hierarchy by default.
+
+## Meta Information
+In order to specify meta information about the file, like i.e. the author or a link to a documentation, a special `$meta` object can be added to the `$nna` node.
+
+The meta-data is a JSON object consisting of 8 specified, but optional properties, and arbitrary additional ones. The JSON object is to be parsed the exact same way as the JSON component array.
