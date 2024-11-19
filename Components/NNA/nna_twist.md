@@ -1,7 +1,7 @@
 [Home](../../readme.md) 🔶 [NNA Core Spec](../../nna_spec.md) 🔶 [NNA Component Types](../../nna_component_types.md) 🔶 [Roadmap](../../roadmap.md)
 
 # `nna.twist`
-Specifies a twist bone.
+Specifies a twist bone. If both `Source` and `Weight` are specified, they must be separated by `,`.
 
 ## Name
 | Name Part | Type | Description | Required | Default |
@@ -11,7 +11,7 @@ Specifies a twist bone.
 | Weight | float | Weight of the sourcee | N | `0.5` |
 
 **Example**
-`LowerArmTwistHand.L0.66.L`
+`LowerArmTwistHand.L,0.66.L`
 
 ## Json
 | Key | Type | Description | Required | Default |
