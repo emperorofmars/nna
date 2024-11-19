@@ -4,8 +4,8 @@ Extend any 3d format by abusing node-names to store data!\
 This project is an abomination and the sooner it can burn in a fire, the better.
 
 **Get it for:**
-* Blender: <https://github.com/emperorofmars/nna_blender>
-* Unity: <https://github.com/emperorofmars/nna_unity>
+* **[Blender](https://github.com/emperorofmars/nna_blender/releases/latest)**
+* **[Unity](https://github.com/emperorofmars/nna_unity/releases/latest)**
 
 ⭐ Star this repo if you love heresy! ⭐
 
