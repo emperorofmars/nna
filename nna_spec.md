@@ -19,11 +19,12 @@ Their format is different for each definition but follows the following general 
 
 **Syntax:** `Actual Node Name` `NNA Processor Name` `Optional Parameters` `Optional Symmetry Suffix`
 
-*Example:* `UpperLegTwistHips0.5.R`
+*Example:* `UpperLegTwistHips,0.5.R`
 
 `UpperLeg` is the actual node name.
 `Twist` is the NNA type name.
 `Hips` is a parameter for the definition.
+`,` is a separator for different parameters.
 `0.5` is a parameter for the definition.
 `.R` signifies the right side of the model.
 
