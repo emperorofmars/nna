@@ -1,7 +1,9 @@
 
 # ⛧ NNA - Node Name Abuse ⛧
-Extend any 3d format by abusing node-names to store data!\
-This project is an abomination and the sooner it can burn in a fire, the better.
+**Extend any 3d format by abusing node-names to store data!**
+
+It works by serializing data into node-names in the scene hierarchy.\
+This is about as heretical as it sounds, but it works, very well.
 
 **Get it for:**
 * **[Blender](https://github.com/emperorofmars/nna_blender/releases/latest)**
