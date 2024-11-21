@@ -20,7 +20,8 @@ This is about as heretical as it sounds, but it works, very well.
 
 Issues, discussions & PRs Welcome!
 
----
+![](./img/nna_cover_image.png)
+
 
 ### Why
 FBX is the current best 3D interchange format. Sadly, it is non-extensible and undocumented, hardly optimal.
@@ -34,15 +35,3 @@ The best case would be if a proper open & extensible 3d interchange format was c
 * A 3d file should be a self-contained single source of truth for all its functionality, and work across different game engines.
 * Artists without technical knowledge beyond 3d modeling, should have an easy time creating VR & V-Tubing avatars.
 * End users without technical knowledge, should be able to easily adapt and upload VR & V-Tubing avatars.
-
----
-
-![](./img/nna_cover_image.png)
-
----
-
-I am disgusted by myself for making this.
-
-Cheers!
-
-Or something.
