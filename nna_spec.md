@@ -13,6 +13,11 @@ On import into a game-engine with an NNA implementation, these definitions will 
 
 [Find a list of all available component types here.](nna_component_types.md)
 
+## Reserved Characters
+The following characters are reserved for NNA and can not be used in regular node-names:
+
+`$`, `&`, `,`, `:`
+
 ## Name Definitions
 Name definitions must fit inside a single node-name. The limit for name length in Blender is 63 bytes. This should be the maximum for interoperability reasons.\
 Their format is different for each definition but follows the following general syntax:
