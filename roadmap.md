@@ -13,12 +13,10 @@ Have a decent Blender extension to create NNA definitions with a GUI.
 The 'export from Blender, drag into Unity, and get a ready to upload VR avatar' experience is generally there, but the file depends on resources in the Unity project.
 
 #### TODO
-* NNA Format:
-	* More VR & V-tubing avatar components & features.
-		* Bone based eyelid animation.
+* NNA Format
+	* VR & V-tubing avatar components & features
 		* Bone physics libraries, at least partially implemented: VRC Physbones & VRM Springbones.
-* Blender:
-	* Handle name definition removal with an existing targeting node.
+		* Colliders
 
 ### Stage 2: All In One
 An `*.nna.fbx` file no longer needs external dependencies, other than NNA itself, in order to be parsed into a fully featured VR avatar in a game-engine.
@@ -26,12 +24,12 @@ An `*.nna.fbx` file no longer needs external dependencies, other than NNA itself
 A lot of these features are blocked by Blender's (lack of an) animation system. Will be fixed once Blender 4.4 is released with 'slotted actions'.
 
 #### TODO
-* NNA Format:
+* NNA Format
 	* More constraint types.
 	* Unity humanoid muscle settings.
 	* Animations, including being able to target NNA properties. (Blocked until Blender 4.4)
 	* Implement [MTF](https://github.com/emperorofmars/stf-unity/tree/master/MTF) to fully encode shader & game engine agnostic materials.
-* More VR & V-tubing avatar components & features.
+* More VR & V-tubing avatar components & features
 	* Bone physics (ava.secondary_motion as universal fallback, VRC Physbones & colliders & contacts, VRM spring bones & colliders, maybe DynamicBones & MagickaCloth)
 	* Automatic animator controller generation (Partially blocked until Blender 4.4)
 		* Face Tracking
@@ -39,7 +37,7 @@ A lot of these features are blocked by Blender's (lack of an) animation system. 
 		* Toggles
 		* Joystick puppets
 		* Custom application & game engine agnostic animation logic
-* A fully featured Blender extension.
+* A fully featured Blender extension
 
 ### Stage 3: Overlord
 Go beyond what VR & V-Tubing applications support out of the box.
