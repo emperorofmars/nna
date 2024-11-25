@@ -20,7 +20,7 @@ Specifies a twist bone. If both `Source` and `Weight` are specified, they must b
 | `w` | float | Weight of the source | N | `0.5` |
 
 **Example**
-```
+``` json
 {
 	"t": "nna.twist",
 	"w": 0.66,

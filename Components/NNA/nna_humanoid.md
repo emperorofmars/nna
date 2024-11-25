@@ -21,7 +21,7 @@ Currently, only automatic mapping of bones is supported. Explicit mapping may be
 | `nj` | boolean | Option to not map the jaw. Supported values are `nj` & `no_jaw`. | N | `false` |
 
 **Example**
-```
+``` json
 {
 	"t": "nna.humanoid",
 	"lt": "digi",

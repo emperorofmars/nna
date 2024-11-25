@@ -15,7 +15,7 @@ This component is optional, the blendshapes will be automapped if the model conf
 | `look_down` | string | Blendshape Name | N | Automapped |
 
 **Example**
-```
+``` json
 {
 	"t": "ava.eyelidtracking_blendshape",
 	"meshinstance": "Body",

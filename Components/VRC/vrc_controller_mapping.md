@@ -21,7 +21,7 @@ This component is optional, the blendshapes will be automapped if the model conf
 | `menu` | string | VRChat Expression Menu Mapping | N | - |
 
 **Example**
-```
+``` json
 {
 	"t": "vrc.controller_mapping",
 	"gesture": "SuperawesomeAvatar_Gesture",

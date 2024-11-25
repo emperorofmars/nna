@@ -32,13 +32,13 @@ Float values are separated by `,` character.
 | `right_out` | float | Rotation limit in degrees | N | 16.0 |
 
 **Example**
-```
+``` json
 {
 	"t": "ava.eyetracking_bone_limits",
 	"linked": true,
 	"left_up": 15.0,
-	"left_down": 12.0
-	"left_in": 15.0
+	"left_down": 12.0,
+	"left_in": 15.0,
 	"left_out": 16.0
 }
 ```

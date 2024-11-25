@@ -9,7 +9,7 @@ Maps materials onto a mesh-instance on import into a game-engine by name.
 | `slots` | list of strings | The index of a slot corresponds to the material index on the mesh-instance. | Y | - |
 
 **Example**
-```
+``` json
 {
 	"t": "nna.material_mapping",
 	"slots": [

@@ -12,7 +12,7 @@ This component is optional, the blendshapes will be automapped if the model conf
 | `meshinstance` | string/node-path | Target mesh instance | N | Automatically determined |
 
 **Example**
-```
+``` json
 {
 	"t": "ava.voice_visemes_blendshape",
 	"meshinstance": "ArmatureHumanoidDigiNoJaw&Body"

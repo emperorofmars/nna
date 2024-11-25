@@ -9,7 +9,7 @@ Base Definition For VR & V-Tubing Avatars.
 | `auto` | boolean | Auto-map avatar features. | N | `true` |
 
 **Example**
-```
+``` json
 {
 	"t": "ava.avatar",
 	"auto": true

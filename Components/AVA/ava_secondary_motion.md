@@ -23,7 +23,7 @@ Components specific to target applications should be implemented, which can over
 | `intensity` | float | Intensity | N | `0.3` |
 
 **Example**
-```
+``` json
 {
 	"t": "ava.secondary_motion",
 	"intensity": 0.36
