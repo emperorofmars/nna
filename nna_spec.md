@@ -31,7 +31,9 @@ Their format is different for each definition but follows the following general 
 `Hips` is a parameter for the definition.
 `,` is a separator for different parameters.
 `0.5` is a parameter for the definition.
-`.R` signifies the right side of the model.
+`.R` is the side signifier.
+
+The combination of the 'actual node name' and the optional side signifier must be unique. This will form the ID of the definition.
 
 ## Json Definitions
 Json definitions are of arbitrary length, as they are spread over multiple nodes.\
