@@ -35,3 +35,8 @@ The best case would be if a proper open & extensible 3d interchange format was c
 * A 3d file should be a self-contained single source of truth for all its functionality, and work across different game engines.
 * Artists without technical knowledge beyond 3d modeling, should have an easy time creating VR & V-Tubing avatars.
 * End users without technical knowledge, should be able to easily adapt and upload VR & V-Tubing avatars.
+
+---
+
+# License
+This repository is licensed under **CC-BY-4.0** (<https://creativecommons.org/licenses/by/4.0/>)
