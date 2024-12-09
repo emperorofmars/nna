@@ -1,0 +1,94 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= Component Types
+Mars <mars@squirrel.pub>
+v0.0.0
+:homepage: https://github.com/emperorofmars/nna
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:library: Asciidoctor
+:toc:
+:toclevels: 4
+:toc-placement!:
+:toc-title: Namespaces
+:idprefix:
+:idseparator: -
+:experimental:
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:./readme.adoc[Home] 🔶 link:./nna_spec.adoc[NNA Core Spec] 🔶 NNA Component Types 🔶 link:./roadmap.adoc[Roadmap]
+
+toc::[]
+
+Component type names are namespaced. Namespaces are separated with a `.` character.
+
+## `nna`
+Components in the `nna` namespace provide common functionality.
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Type | Description | Specification | Name | Json
+
+| `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.md[] | Y | Y
+| `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.md[] | Y | Y
+| `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.md[]
+|===
+
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Type | Description | Specification | Name | Json
+
+| `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.md[] | Y | Y
+| `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.md[] | Y | Y
+| `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.md[] | N | Y
+|===
+
+## `ava`
+AVA Components specify functionality for VR and V-Tubing avatars.
+
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Type | Description | Specification | Name | Json
+
+| `ava.avatar` | Main avatar component | link:./Components/AVA/ava_avatar.md[] | N | Y
+| `ava.eyetracking_bone_limits` | Eye-bone rotation limits | link:./Components/AVA/ava_eyetracking_bone_limits.adoc[] | Y | Y
+| `ava.eyelidtracking_blendshape` | Eyelid blendshape mappings | link:./Components/AVA/ava_eyelidtracking_blendshape.md[] | N | Y
+| `ava.voice_visemes_blendshape` | Viseme blendshape mappings | link:./Components/AVA/ava_voice_visemes_blendshape.md[] | N | Y
+| `ava.secondary_motion` | Basic bone physics | link:./Components/AVA/ava_secondary_motion.md[] | Y | Y
+| `ava.collider` | Basic bone physics | link:./Components/AVA/ava_collider.adoc[] | Y | N
+|===
+
+## `vrc`
+VRChat specific avatar components.
+
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Type | Description | Specification | Name | Json
+
+| `vrc.controller_mapping` | Map animator controllers from the Unity project. | link:./Components/VRC/vrc_controller_mapping.md[]  | N | Y
+| `vrc.physbone` | VRChat Physbone definition | - | N | Y
+| `vrc.physbone_collider` | VRChat Physbone collider definition | -  | N | Y
+| `vrc.avatar_colliders` | Collider definitions for the VRChat avatar descriptor. | - | N | Y
+|===
+
+## `vrm0`
+VRM 0 specific avatar components.
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Type | Description | Specification | Name | Json
+
+| `vrm0.spring_bone` | Spring bone definition | - | N | Y
+|===
