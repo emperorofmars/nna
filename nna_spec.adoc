@@ -38,7 +38,7 @@ On import into a game-engine with an NNA implementation, these definitions will 
 ## Reserved Characters
 The following characters are reserved for NNA and can not be used in regular node-names:
 
-`$`, `&`, `,`, `:`
+`$`, `&`, `,`, `:`, `;`
 
 ## Name Definitions
 Name definitions must fit inside a single node-name. The limit for name length in Blender is 63 bytes. This should be the maximum for interoperability reasons.
@@ -46,10 +46,10 @@ Their format is different for each definition but follows the following general 
 
 **Syntax:** `Actual Node Name` `NNA Processor Name` `Optional Parameters` `Optional Symmetry Suffix`
 
-*Example:* `UpperLegTwistHips,0.5.R`
+*Example:* `UpperLeg$TwistHips,0.5.R`
 
 `UpperLeg` is the actual node name.
-`Twist` is the NNA type name.
+`$Twist` is the NNA type name. It always starts with a `$` character.
 `Hips` is a parameter for the definition.
 `,` is a separator for different parameters.
 `0.5` is a parameter for the definition.

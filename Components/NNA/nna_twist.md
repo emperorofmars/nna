@@ -6,7 +6,7 @@ Specifies a twist bone. If both `Source` and `Weight` are specified, they must b
 ## Name
 | Name Part | Type | Description | Required | Default |
 | --- | --- | --- | --- | --- |
-| Twist | literal | processor name | Y | - |
+| $Twist | literal | processor name | Y | - |
 | Source | string | Source node | N | grandparent of the twist node |
 | Weight | float | Weight of the sourcee | N | `0.5` |
 

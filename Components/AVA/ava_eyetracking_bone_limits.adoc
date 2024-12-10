@@ -25,12 +25,12 @@ Float values are separated by `,` character.
 |===
 | Name Part | Type | Description | Required | Default
 
-| EyeBoneLimits | literal | processor name | Y | -
+| $EyeBoneLimits | literal | processor name | Y | -
 | `up` | float | Rotation limit in degrees | Y | -
 | `down` | float | Rotation limit in degrees | Y | -
 | `in` | float | Rotation limit in degrees | Y | -
 | `out` | float | Rotation limit in degrees | Y | -
-| `symmetry` | symmetry suffix | Specifies whether the left or right eye is targeted.<br>If omitted, values are applied to both eyes. | N | both
+| `symmetry` | symmetry suffix | Specifies whether the left or right eye is targeted. If omitted, values are applied to both eyes. | N | both
 |===
 
 **Example**

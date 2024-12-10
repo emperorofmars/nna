@@ -24,7 +24,7 @@ Collider definition
 |===
 | Name Part | Type | Description | Required | Default
 
-| ColSphere | literal | processor name | Y | -
+| $ColSphere | literal | processor name | Y | -
 | In | literal | Inside Bounds | Y | -
 | R | literal | Start of the radius number | Y | -
 | `radius` | float | Radius of a sphere | Y | -
@@ -35,7 +35,7 @@ Collider definition
 |===
 | Name Part | Type | Description | Required | Default
 
-| ColCapsule | literal | processor name | Y | -
+| $ColCapsule | literal | processor name | Y | -
 | In | literal | Inside Bounds | Y | -
 | R | literal | Start of the radius number | Y | -
 | `radius` | float | Radius of a capsule | Y | -
@@ -48,7 +48,7 @@ Collider definition
 |===
 | Name Part | Type | Description | Required | Default
 
-| ColPlane | literal | processor name | Y | -
+| $ColPlane | literal | processor name | Y | -
 |===
 
 **Example**

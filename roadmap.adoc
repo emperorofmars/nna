@@ -49,7 +49,7 @@ A lot of these features are blocked by Blender's (lack of an) animation system. 
 	** More constraint types.
 	** Unity humanoid muscle settings.
 	** Animations, including being able to target NNA properties. (Blocked until Blender 4.4)
-	** Implement [MTF](https://github.com/emperorofmars/stf-unity/tree/master/MTF) to fully encode shader & game engine agnostic materials.
+	** Implement https://github.com/emperorofmars/stf-unity/tree/master/MTF[MTF] to fully encode shader & game engine agnostic materials.
 * More VR & V-tubing avatar components & features
 	** Bone physics (ava.secondary_motion as universal fallback, VRC Physbones & colliders & contacts, VRM spring bones & colliders, maybe DynamicBones & MagickaCloth)
 	** Automatic animator controller generation (Partially blocked until Blender 4.4)

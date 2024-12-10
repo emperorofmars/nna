@@ -4,10 +4,12 @@
 Specifies a Unity compatible humanoid rig.\
 Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
 
+None of the humanoid bones are allowed to have NNA-name definitions directly on them.
+
 ## Name
 | Name Part | Type | Description | Required | Default |
 | --- | --- | --- | --- | --- |
-| Humanoid | literal | processor name | Y | - |
+| $Humanoid | literal | processor name | Y | - |
 | Digi | literal | Indicate digitigrade locomotion. | N | `planti` |
 | NoJaw | literal | Flag to not map the jaw. | N | `false` |
 
