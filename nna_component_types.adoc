@@ -48,6 +48,7 @@ AVA Components specify functionality for VR and V-Tubing avatars.
 | Type | Description | Specification | Name | Json
 
 | `ava.avatar` | Main avatar component | link:./Components/AVA/ava_avatar.adoc[Link] | N | Y
+| `ava.viewport.first_person` | Viewport Offset | link:./Components/AVA/ava_viewport_first_person.adoc[Link] | Y | N
 | `ava.eyetracking_bone_limits` | Eye-bone rotation limits | link:./Components/AVA/ava_eyetracking_bone_limits.adoc[Link] | Y | Y
 | `ava.eyelidtracking_blendshape` | Eyelid blendshape mappings | link:./Components/AVA/ava_eyelidtracking_blendshape.adoc[Link] | N | Y
 | `ava.voice_visemes_blendshape` | Viseme blendshape mappings | link:./Components/AVA/ava_voice_visemes_blendshape.adoc[Link] | N | Y

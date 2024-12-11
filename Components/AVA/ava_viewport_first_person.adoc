@@ -1,0 +1,31 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= ava.viewport.first_person
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Viewport definition.
+
+It must be parented to the node to which the application will parent the first person viewport. The only supported node is the head on a humanoid model.
+
+== Name
+
+[caption=,title=""]
+[cols=5*]
+|===
+| Name Part | Type | Description | Required | Default
+
+| $ViewportFirstPerson | literal | processor name | Y | -
+|===
+
