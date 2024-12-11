@@ -1,0 +1,36 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= ava.avatar
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Base Definition For VR & V-Tubing Avatars.
+
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| `auto` | boolean | Auto-map avatar features. | N | `true`
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "ava.avatar",
+	"auto": true
+}
+----

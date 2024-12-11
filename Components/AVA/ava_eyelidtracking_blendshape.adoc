@@ -1,0 +1,47 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= ava.eyelidtracking_blendshape
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Eyelid blendshape mappings.
+This component is optional, the blendshapes will be automapped if the model conforms to blendshape naming conventions.
+
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| `meshinstance` | string/node-path | Target mesh instance | N | Automatically determined
+| `eye_closed` | string | Blendshape Name | N | Automapped
+| `eye_closed_left` | string | Blendshape Name | N | Automapped
+| `eye_closed_right` | string | Blendshape Name | N | Automapped
+| `look_up` | string | Blendshape Name | N | Automapped
+| `look_down` | string | Blendshape Name | N | Automapped
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "ava.eyelidtracking_blendshape",
+	"meshinstance": "Body",
+	"eye_closed": "ft_close_eyes",
+	"eye_closed_left": "ft_close_eyes_left",
+	"eye_closed_right": "ft_close_eyes_right",
+	"look_up": "ft_eyes_up",
+	"look_down": "ft_eyes_down"
+}
+----

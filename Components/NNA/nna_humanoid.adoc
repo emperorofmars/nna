@@ -1,0 +1,55 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= nna.humanoid
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Specifies a Unity compatible humanoid rig.
+Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
+
+None of the humanoid bones are allowed to have NNA-name definitions directly on them.
+
+== Name
+[caption=,title=""]
+[cols=5*]
+|===
+| Name Part | Type | Description | Required | Default
+
+| $Humanoid | literal | processor name | Y | -
+| Digi | literal | Indicate digitigrade locomotion. | N | `planti`
+| NoJaw | literal | Flag to not map the jaw. | N | `false`
+|===
+
+**Example**
+`ArmatureHumanoidDigiNoJaw`
+
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| `lt` | string | Locomotion type. Supported values are `planti` & `digi`. | N | `planti`
+| `nj` | boolean | Option to not map the jaw. Supported values are `nj` & `no_jaw`. | N | `false`
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "nna.humanoid",
+	"lt": "digi",
+	"nj": true
+}
+----

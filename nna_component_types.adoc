@@ -34,36 +34,24 @@ Components in the `nna` namespace provide common functionality.
 |===
 | Type | Description | Specification | Name | Json
 
-| `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.md[] | Y | Y
-| `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.md[] | Y | Y
-| `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.md[]
-|===
-
-
-[caption=,title=""]
-[cols=5*]
-|===
-| Type | Description | Specification | Name | Json
-
-| `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.md[] | Y | Y
-| `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.md[] | Y | Y
-| `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.md[] | N | Y
+| `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.adoc[] | Y | Y
+| `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.adoc[] | Y | Y
+| `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.adoc[] | N | Y
 |===
 
 ## `ava`
 AVA Components specify functionality for VR and V-Tubing avatars.
 
-
 [caption=,title=""]
 [cols=5*]
 |===
 | Type | Description | Specification | Name | Json
 
-| `ava.avatar` | Main avatar component | link:./Components/AVA/ava_avatar.md[] | N | Y
+| `ava.avatar` | Main avatar component | link:./Components/AVA/ava_avatar.adoc[] | N | Y
 | `ava.eyetracking_bone_limits` | Eye-bone rotation limits | link:./Components/AVA/ava_eyetracking_bone_limits.adoc[] | Y | Y
-| `ava.eyelidtracking_blendshape` | Eyelid blendshape mappings | link:./Components/AVA/ava_eyelidtracking_blendshape.md[] | N | Y
-| `ava.voice_visemes_blendshape` | Viseme blendshape mappings | link:./Components/AVA/ava_voice_visemes_blendshape.md[] | N | Y
-| `ava.secondary_motion` | Basic bone physics | link:./Components/AVA/ava_secondary_motion.md[] | Y | Y
+| `ava.eyelidtracking_blendshape` | Eyelid blendshape mappings | link:./Components/AVA/ava_eyelidtracking_blendshape.adoc[] | N | Y
+| `ava.voice_visemes_blendshape` | Viseme blendshape mappings | link:./Components/AVA/ava_voice_visemes_blendshape.adoc[] | N | Y
+| `ava.secondary_motion` | Basic bone physics | link:./Components/AVA/ava_secondary_motion.adoc[] | Y | Y
 | `ava.collider` | Basic bone physics | link:./Components/AVA/ava_collider.adoc[] | Y | N
 |===
 
@@ -76,10 +64,12 @@ VRChat specific avatar components.
 |===
 | Type | Description | Specification | Name | Json
 
-| `vrc.controller_mapping` | Map animator controllers from the Unity project. | link:./Components/VRC/vrc_controller_mapping.md[]  | N | Y
-| `vrc.physbone` | VRChat Physbone definition | - | N | Y
-| `vrc.physbone_collider` | VRChat Physbone collider definition | -  | N | Y
+| `vrc.controller_mapping` | Map animator controllers from the Unity project. | link:./Components/VRC/vrc_controller_mapping.adoc[]  | N | Y
 | `vrc.avatar_colliders` | Collider definitions for the VRChat avatar descriptor. | - | N | Y
+| `vrc.physbone` | VRChat Physbone definition | - | N | Y
+| `vrc.contact_sender` | VRChat Contact Sender | - | N | Y
+| `vrc.contact_receiver` | VRChat Contact Receiver | - | N | Y
+| `vrc.imposter_settings` | VRChat Imposter Settings | - | N | Y
 |===
 
 ## `vrm0`

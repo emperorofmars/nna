@@ -1,0 +1,54 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= ava.secondary_motion
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Specifies the root of a bone chain to be animated based on runtime physics.
+
+**This component is incredibly rudimentary as of now and will be significantly reworked.**
+
+This is supposed to be used as a universally compatible fallback component to specify bone physics.\
+Components specific to target applications should be implemented, which can override this one.
+
+== Name
+[caption=,title=""]
+[cols=5*]
+|===
+| Name Part | Type | Description | Required | Default
+
+| $SecMo | literal | processor name | Y | -
+| `intensity` | float | Intensity | N | `0.3`
+|===
+
+**Example**
+`Hair01$SecMo0.36`
+
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| `intensity` | float | Intensity | N | `0.3`
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "ava.secondary_motion",
+	"intensity": 0.36
+}
+----

@@ -41,7 +41,7 @@ Float values are separated by `,` character.
 [caption=,title=""]
 [cols=5*]
 |===
-| Name Part | Type | Description | Required | Default
+| Key | Type | Description | Required | Default
 
 | `linked` | bool | Values symmetrical | N | `true`
 | `left_up` | float | Rotation limit in degrees | N | 15.0
