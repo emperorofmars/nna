@@ -25,44 +25,15 @@ Specifies rotation limits for humanoid bones. If this is not specified for a hum
 
 | $HuLim | literal | processor name | Y | -
 
-| D{limit} | float | Down rotation limit | N | -
-| U{limit} | float | Up rotation limit | N | -
-
-| F{limit} | float | Front rotation limit | N | -
-| B{limit} | float | Back rotation limit | N | -
-
-| L{limit} | float | Left rotation limit | N | -
-| R{limit} | float | Right rotation limit | N | -
-
-| TL{limit} | float | Twist left rotation limit | N | -
-| TR{limit} | float | Twist right rotation limit | N | -
-
-| I{limit} | float | In rotation limit | N | -
-| O{limit} | float | Out rotation limit | N | -
-
-| TI{limit} | float | Twist-in rotation limit | N | -
-| TO{limit} | float | Twist-out rotation limit | N | -
-
-| STC{limit} | float | Open rotation limit | N | -
-| STO{limit} | float | Open rotation limit | N | -
-
-| SPI{limit} | float | Open rotation limit | N | -
-| SPO{limit} | float | Open rotation limit | N | -
-
-| TIL{limit} | float | Tilt left rotation limit | N | -
-| TIR{limit} | float | Tilt right rotation limit | N | -
-
-| TUL{limit} | float | Turn left rotation limit | N | -
-| TUR{limit} | float | Turn right rotation limit | N | -
-
-| NOD{limit} | float | Nod down rotation limit | N | -
-| NOU{limit} | float | Nod up rotation limit | N | -
+| P{min},{max} | 2x float | Rotation limits for the primary axis | N | -
+| S{min},{max} | 2x float | Rotation limits for the secondary axis | N | -
+| T{min},{max} | 2x float | Rotation limits for the twist axis. | N | -
 
 | BL{bone-length} | float | Bone length, same meaning as in `nna.bone_length` | N | -
 |===
 
 **Example**
-`FingerLittle1$HuLimSTC-60STO60SPI-25SPO25.L`
+`FingerLittle1$HuLimH-55,55V-60,60T-25,25BL0.2.L`
 
 == Json
 [caption=,title=""]
@@ -70,38 +41,14 @@ Specifies rotation limits for humanoid bones. If this is not specified for a hum
 |===
 | Key | Type | Description | Required | Default
 
-| down | float | Down rotation limit | N | -
-| up | float | Up rotation limit | N | -
+| p_min | float | Rotation min-limit for the primary axis | N | -
+| p_max | float | Rotation max-limit for the primary axis | N | -
 
-| front | float | Front rotation limit | N | -
-| back | float | Back rotation limit | N | -
+| v_min | float | Rotation min-limit for the secondary axis | N | -
+| v_max | float | Rotation max-limit for the secondary axis | N | -
 
-| left | float | Left rotation limit | N | -
-| right | float | Right rotation limit | N | -
-
-| twist_left | float | Twist-left rotation limit | N | -
-| twist_right | float | Twist-right rotation limit | N | -
-
-| in | float | In rotation limit | N | -
-| out | float | Out rotation limit | N | -
-
-| twist_in | float | Twist in rotation limit | N | -
-| twist_out | float | Twist out rotation limit | N | -
-
-| stretch_close | float | Stretch-close rotation limit | N | -
-| stretch_open | float | Stretch-open rotation limit | N | -
-
-| spread_in | float | Spread-in rotation limit | N | -
-| spread_out | float | Spread-out rotation limit | N | -
-
-| tilt_left | float | Tilt left rotation limit | N | -
-| tilt_right | float | Tilt right rotation limit | N | -
-
-| turn_left | float | Turn left rotation limit | N | -
-| turn_right | float | Turn right rotation limit | N | -
-
-| nod_down | float | Nod down rotation limit | N | -
-| nod_up | float | Nod up rotation limit | N | -
+| t_min | float | Twist rotation min-limit | N | -
+| t_max | float | Twist rotation max-limit | N | -
 
 | bone_length | float | Bone length, same meaning as in `nna.bone_length` | N | -
 |===
@@ -111,9 +58,9 @@ Specifies rotation limits for humanoid bones. If this is not specified for a hum
 ----
 {
 	"t": "nna.humanoid.limits",
-	"stretch_close": -55,
-	"stretch_open": 55,
-	"spread_in": -25,
-	"spread_out": 25
+	"p_min": -55,
+	"p_max": 55,
+	"t_min": -25,
+	"t_max": 25
 }
 ----
