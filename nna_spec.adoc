@@ -33,7 +33,7 @@ An FBX file with NNA definitions would be named for example `Superawesomemodel.n
 
 On import into a game-engine with an NNA implementation, these definitions will be parsed into the game-engines own constructs.
 
-[Find a list of all available component types here.](nna_component_types.md)
+link:./nna_component_types.adoc[Find a list of all available component types here.]
 
 ## Reserved Characters
 The following characters are reserved for NNA and can not be used in regular node-names:
