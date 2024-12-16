@@ -1,0 +1,119 @@
+// Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
+
+= nna.humanoid.limits
+:homepage: https://github.com/emperorofmars/stf
+:keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
+:hardbreaks-option:
+:idprefix:
+:idseparator: -
+:library: Asciidoctor
+:table-caption!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+endif::[]
+
+link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
+
+Specifies rotation limits for humanoid bones. If this is not specified for a humanoid bone, application defined default values will be used.
+
+== Name
+[caption=,title=""]
+[cols=5*]
+|===
+| Name Part | Type | Description | Required | Default
+
+| $HuLim | literal | processor name | Y | -
+
+| D{limit} | float | Down rotation limit | N | -
+| U{limit} | float | Up rotation limit | N | -
+
+| F{limit} | float | Front rotation limit | N | -
+| B{limit} | float | Back rotation limit | N | -
+
+| L{limit} | float | Left rotation limit | N | -
+| R{limit} | float | Right rotation limit | N | -
+
+| TL{limit} | float | Twist left rotation limit | N | -
+| TR{limit} | float | Twist right rotation limit | N | -
+
+| I{limit} | float | In rotation limit | N | -
+| O{limit} | float | Out rotation limit | N | -
+
+| TI{limit} | float | Twist-in rotation limit | N | -
+| TO{limit} | float | Twist-out rotation limit | N | -
+
+| STC{limit} | float | Open rotation limit | N | -
+| STO{limit} | float | Open rotation limit | N | -
+
+| SPI{limit} | float | Open rotation limit | N | -
+| SPO{limit} | float | Open rotation limit | N | -
+
+| TIL{limit} | float | Tilt left rotation limit | N | -
+| TIR{limit} | float | Tilt right rotation limit | N | -
+
+| TUL{limit} | float | Turn left rotation limit | N | -
+| TUR{limit} | float | Turn right rotation limit | N | -
+
+| NOD{limit} | float | Nod down rotation limit | N | -
+| NOU{limit} | float | Nod up rotation limit | N | -
+
+| BL{bone-length} | float | Bone length, same meaning as in `nna.bone_length` | N | -
+|===
+
+**Example**
+`FingerLittle1$HuLimSTC-60STO60SPI-25SPO25.L`
+
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| down | float | Down rotation limit | N | -
+| up | float | Up rotation limit | N | -
+
+| front | float | Front rotation limit | N | -
+| back | float | Back rotation limit | N | -
+
+| left | float | Left rotation limit | N | -
+| right | float | Right rotation limit | N | -
+
+| twist_left | float | Twist-left rotation limit | N | -
+| twist_right | float | Twist-right rotation limit | N | -
+
+| in | float | In rotation limit | N | -
+| out | float | Out rotation limit | N | -
+
+| twist_in | float | Twist in rotation limit | N | -
+| twist_out | float | Twist out rotation limit | N | -
+
+| stretch_close | float | Stretch-close rotation limit | N | -
+| stretch_open | float | Stretch-open rotation limit | N | -
+
+| spread_in | float | Spread-in rotation limit | N | -
+| spread_out | float | Spread-out rotation limit | N | -
+
+| tilt_left | float | Tilt left rotation limit | N | -
+| tilt_right | float | Tilt right rotation limit | N | -
+
+| turn_left | float | Turn left rotation limit | N | -
+| turn_right | float | Turn right rotation limit | N | -
+
+| nod_down | float | Nod down rotation limit | N | -
+| nod_up | float | Nod up rotation limit | N | -
+
+| bone_length | float | Bone length, same meaning as in `nna.bone_length` | N | -
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "nna.humanoid.limits",
+	"stretch_close": -55,
+	"stretch_open": 55,
+	"spread_in": -25,
+	"spread_out": 25
+}
+----

@@ -23,7 +23,7 @@ Base Definition For VR & V-Tubing Avatars.
 |===
 | Key | Type | Description | Required | Default
 
-| `auto` | boolean | Auto-map avatar features. | N | `true`
+| auto | boolean | Auto-map avatar features. | N | true
 |===
 
 **Example**

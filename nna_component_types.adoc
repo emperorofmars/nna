@@ -36,6 +36,8 @@ Components in the `nna` namespace provide common functionality.
 
 | `nna.twist` | Twist bone constraint | link:./Components/NNA/nna_twist.adoc[Link] | Y | Y
 | `nna.humanoid` | Humanoid rig definition | link:./Components/NNA/nna_humanoid.adoc[Link] | Y | Y
+| `nna.humanoid.limits` | Limit rotation limits for humanoid bones. | link:./Components/NNA/nna_humanoid_limits.adoc[Link] | Y | Y
+| `nna.bone_length` | Specify the length of a bone. | link:./Components/NNA/nna_bone_length.adoc[Link] | Y | Y
 | `nna.material_mapping` | Map material resources on import by name | link:./Components/NNA/nna_material_mapping.adoc[Link] | N | Y
 |===
 

@@ -44,7 +44,7 @@ The following characters are reserved for NNA and can not be used in regular nod
 Name definitions must fit inside a single node-name. The limit for name length in Blender is 63 bytes. This should be the maximum for interoperability reasons.
 Their format is different for each definition but follows the following general syntax:
 
-**Syntax:** `Actual Node Name` `NNA Processor Name` `Optional Parameters` `Optional Symmetry Suffix`
+**Syntax:** `Actual Node Name` (`$`) `$` `NNA Processor Name` `Optional Parameters` `Optional Side Suffix`
 
 *Example:* `UpperLeg$TwistHips,0.5.R`
 
@@ -53,9 +53,11 @@ Their format is different for each definition but follows the following general 
 `Hips` is a parameter for the definition.
 `,` is a separator for different parameters.
 `0.5` is a parameter for the definition.
-`.R` is the side signifier.
+`.R` is the side suffix.
 
-The combination of the 'actual node name' and the optional side signifier must be unique. This will form the ID of the definition. In this example the ID would become `UpperLeg.R`.
+The combination of the 'actual node name' and the optional side suffix must be unique. This will form the ID of the definition. In this example the ID would become `UpperLeg.R`.
+
+If a name definition starts with two `$` characters, then the definition will be removed from the name on import after processing. The node can be referenced by other nodes with this cleaned name.
 
 ## Json Definitions
 Json definitions are of arbitrary length, as they are spread over multiple nodes.

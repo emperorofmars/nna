@@ -29,11 +29,11 @@ Components specific to target applications should be implemented, which can over
 | Name Part | Type | Description | Required | Default
 
 | $SecMo | literal | processor name | Y | -
-| `intensity` | float | Intensity | N | `0.3`
+| I{intensity} | float | Intensity | N | I0.3
 |===
 
 **Example**
-`Hair01$SecMo0.36`
+`Hair01$SecMoI0.36`
 
 == Json
 [caption=,title=""]
@@ -41,7 +41,7 @@ Components specific to target applications should be implemented, which can over
 |===
 | Key | Type | Description | Required | Default
 
-| `intensity` | float | Intensity | N | `0.3`
+| intensity | float | Intensity | N |`0.3
 |===
 
 **Example**

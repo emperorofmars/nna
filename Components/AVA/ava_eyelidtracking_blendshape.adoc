@@ -24,12 +24,12 @@ This component is optional, the blendshapes will be automapped if the model conf
 |===
 | Key | Type | Description | Required | Default
 
-| `meshinstance` | string/node-path | Target mesh instance | N | Automatically determined
-| `eye_closed` | string | Blendshape Name | N | Automapped
-| `eye_closed_left` | string | Blendshape Name | N | Automapped
-| `eye_closed_right` | string | Blendshape Name | N | Automapped
-| `look_up` | string | Blendshape Name | N | Automapped
-| `look_down` | string | Blendshape Name | N | Automapped
+| meshinstance | string/node-path | Target mesh instance | N | Automatically determined
+| eye_closed | string | Blendshape Name | N | Automapped
+| eye_closed_left | string | Blendshape Name | N | Automapped
+| eye_closed_right | string | Blendshape Name | N | Automapped
+| look_up | string | Blendshape Name | N | Automapped
+| look_down | string | Blendshape Name | N | Automapped
 |===
 
 **Example**

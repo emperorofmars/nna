@@ -1,6 +1,6 @@
 // Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
 
-= nna.humanoid
+= nna.bone_length
 :homepage: https://github.com/emperorofmars/stf
 :keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
 :hardbreaks-option:
@@ -15,8 +15,7 @@ endif::[]
 
 link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
 
-Specifies a Unity compatible humanoid rig.
-Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
+Specifies the length of a bone. This can be used by bone physics libraries as the end-bone length value for example.
 
 == Name
 [caption=,title=""]
@@ -24,13 +23,12 @@ Currently, only automatic mapping of bones is supported. Explicit mapping may be
 |===
 | Name Part | Type | Description | Required | Default
 
-| $Humanoid | literal | processor name | Y | -
-| Digi | literal | Indicate digitigrade locomotion. | N | planti
-| NoJaw | literal | Flag to not map the jaw. | N | false
+| $BoneLen | literal | processor name | Y | -
+| {bone-length} | float | Bone length | N | 0.12
 |===
 
 **Example**
-`ArmatureHumanoidDigiNoJaw`
+`FingerLittle3$BoneLen0.12.L`
 
 == Json
 [caption=,title=""]
@@ -38,16 +36,14 @@ Currently, only automatic mapping of bones is supported. Explicit mapping may be
 |===
 | Key | Type | Description | Required | Default
 
-| lt | string | Locomotion type. Supported values are `planti` & `digi`. | N | planti
-| nj | boolean | Option to not map the jaw. | N | false
+| l | float | Bone length | N | 0.12
 |===
 
 **Example**
 [,json]
 ----
 {
-	"t": "nna.humanoid",
-	"lt": "digi",
-	"nj": true
+	"t": "nna.bone_length",
+	"l": 0.12
 }
 ----

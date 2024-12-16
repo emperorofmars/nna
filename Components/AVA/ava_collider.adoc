@@ -26,9 +26,11 @@ Collider definition
 
 | $ColSphere | literal | processor name | Y | -
 | In | literal | Inside Bounds | Y | -
-| R | literal | Start of the radius number | Y | -
-| `radius` | float | Radius of a sphere | Y | -
+| R{radius} | float | Radius of a sphere | Y | -
 |===
+
+**Example**
+`Head$ColSphereR0.2`
 
 [caption=,title=""]
 [cols=5*]
@@ -37,11 +39,12 @@ Collider definition
 
 | $ColCapsule | literal | processor name | Y | -
 | In | literal | Inside Bounds | Y | -
-| R | literal | Start of the radius number | Y | -
-| `radius` | float | Radius of a capsule | Y | -
-| H | literal | Start of the height number | Y | -
-| `height` | float | Height of a Capsule | Y | -
+| R{radius} | float | Radius of a capsule | Y | -
+| H{height} | float | Height of a Capsule | Y | -
 |===
+
+**Example**
+`Chest$ColCapsuleR0.22H0.67.5`
 
 [caption=,title=""]
 [cols=5*]
@@ -52,4 +55,4 @@ Collider definition
 |===
 
 **Example**
-`EyeEyeBoneLimits15.0,12.0,15.0,16.0.L`
+`Floor$ColPlane`
