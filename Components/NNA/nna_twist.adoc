@@ -25,7 +25,7 @@ Specifies a twist bone. If both `Source` and `Weight` are specified, they must b
 
 | $Twist | literal | processor name | Y | -
 | {source} | string | Source node | N | Grandparent of the twist node
-| W{weight} | float | Weight of the sourcee | N | 0.5
+| (,){weight} | float | Weight of the source. If the `source` is set, the weight must be prefixed with a `,`. | N | 0.5
 |===
 
 **Example**
