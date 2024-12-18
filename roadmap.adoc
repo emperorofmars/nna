@@ -62,6 +62,7 @@ A lot of these features are blocked by Blender's (lack of an) animation system. 
 		*** Toggles
 		*** Joystick puppets
 		*** Custom application & game engine agnostic animation logic
+	** Option to automatically generate a shadow rig for the fingers with a constraint based setup to animate the actual finger bones, unless VRChat fixes this bug: https://feedback.vrchat.com/avatar-30/p/finger-muscle-settings
 
 
 == Stage 3: Overlord
