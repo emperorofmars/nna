@@ -44,8 +44,8 @@ Specifies rotation limits for humanoid bones. If this is not specified for a hum
 | p_min | float | Rotation min-limit for the primary axis | N | -
 | p_max | float | Rotation max-limit for the primary axis | N | -
 
-| v_min | float | Rotation min-limit for the secondary axis | N | -
-| v_max | float | Rotation max-limit for the secondary axis | N | -
+| s_min | float | Rotation min-limit for the secondary axis | N | -
+| s_max | float | Rotation max-limit for the secondary axis | N | -
 
 | t_min | float | Twist rotation min-limit | N | -
 | t_max | float | Twist rotation max-limit | N | -
