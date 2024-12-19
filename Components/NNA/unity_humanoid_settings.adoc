@@ -1,6 +1,6 @@
 // Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
 
-= unity.humanoid_settings
+= unity.humanoid.settings
 :homepage: https://github.com/emperorofmars/stf
 :keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
 :hardbreaks-option:
@@ -37,8 +37,14 @@ Specifies the 'Additional Settings' properties in the Unity humanoid avatar.
 [,json]
 ----
 {
-	"t": "nna.humanoid",
-	"lt": "digi",
-	"nj": true
+	"t": "nna.humanoid.settings",
+	"upper_arm_twist": 0.5,
+	"lower_arm_twist": 0.5,
+	"upper_leg_twist": 0.5,
+	"lower_leg_twist": 0.5,
+	"arm_stretch": 0.05,
+	"leg_stretch": 0.05,
+	"feet_spacing": 0,
+	"translation_dof": false
 }
 ----
