@@ -18,6 +18,9 @@ link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 l
 Specifies a Unity compatible humanoid rig.
 Currently, only automatic mapping of bones is supported. Explicit mapping may be added in the future.
 
+**Set the 'locomotion type' to 'digi' (digitigrade), ONLY if your rig itself is digitigrade.**
+If your mesh appears to be digitigrade, but your rig is not, keep it at 'planti'!
+
 == Name
 [caption=,title=""]
 [cols=5*]
