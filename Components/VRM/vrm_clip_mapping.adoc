@@ -1,6 +1,6 @@
 // Licensed under CC-BY-4.0 (<https://creativecommons.org/licenses/by/4.0/>)
 
-= vrm0_spring_bone
+= vrm.clip_mapping
 :homepage: https://github.com/emperorofmars/stf
 :keywords: nna, 3d, fbx, extension, fileformat, format, interchange, interoperability
 :hardbreaks-option:
@@ -15,3 +15,24 @@ endif::[]
 
 link:../../readme.adoc[Home] 🔶 link:../../nna_spec.adoc[NNA Core Spec] 🔶 link:../../nna_component_types.adoc[NNA Component Types] 🔶 link:../../roadmap.adoc[Roadmap]
 
+== Json
+[caption=,title=""]
+[cols=5*]
+|===
+| Key | Type | Description | Required | Default
+
+| clips | list<string> | List of names of Blendshape-Clip files. | Y | -
+|===
+
+**Example**
+[,json]
+----
+{
+	"t": "vrc.controller_mapping",
+	"clips": [
+		"Smile"
+		"Frown"
+		"Projectile Vomit"
+	]
+}
+----

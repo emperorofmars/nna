@@ -62,7 +62,6 @@ AVA Components specify functionality for VR and V-Tubing avatars.
 ## `vrc`
 VRChat specific avatar components.
 
-
 [caption=,title=""]
 [cols=5*]
 |===
@@ -76,13 +75,14 @@ VRChat specific avatar components.
 | `vrc.imposter_settings` | VRChat Imposter Settings | - | N | Y
 |===
 
-## `vrm0`
-VRM 0 specific avatar components.
+## `vrm`
+VRM specific avatar components.
 
 [caption=,title=""]
 [cols=5*]
 |===
 | Type | Description | Specification | Name | Json
 
-| `vrm0.spring_bone` | Spring bone definition | - | N | Y
+| `vrm.spring_bone` | Spring bone definition | - | N | Y
+| `vrm.clip_mapping` | Mapping of Blendshape clip files by name. | link:./Components/VRM/vrm_clip_mapping.adoc[Link] | N | Y
 |===

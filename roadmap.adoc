@@ -38,10 +38,6 @@ The 'export from Blender, drag into Unity, and get a ready to upload VR avatar' 
 === TODO
 * NNA Core
 	** Rotation Constraints
-* VR & V-tubing avatar components & features
-	** Unity humanoid muscle settings
-	** VRM spring bones
-	** VRM Colliders
 
 
 == Stage 2: All In One

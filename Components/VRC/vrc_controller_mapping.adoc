@@ -21,7 +21,6 @@ This component is optional, the blendshapes will be automapped if the model conf
 **Manual mapping not yet implemented.**
 
 == Json
-== Json
 [caption=,title=""]
 [cols=5*]
 |===
